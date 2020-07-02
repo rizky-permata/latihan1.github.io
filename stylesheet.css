@@ -11,7 +11,6 @@ html {
 body {
     font-family: raleway;
     color: #fff;
-
 }
 
 a {
@@ -103,7 +102,6 @@ a {
 .btn-wrapper {
     text-align: center;
     margin: 20px 0;
-
 }
 
 .btn-wrapper p {
@@ -196,8 +194,6 @@ header .menu-icon {
     padding-bottom: 50px;
     color: #222f3e;
 }
-
-
 
 .symptom {
     float: left;
