@@ -1,0 +1,148 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .symptom {
+        width: 50%;
+        padding-bottom: 50px;
+    }
+
+    .symptom-icon img {
+        height: 260px;
+    }
+
+    .footer-up {
+        height: 100%;
+    }
+
+    .footer-item {
+        width: 45%;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-right {
+        width: 100%;
+        height: 100%;
+        display: none;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    .header-right a {
+        float: none;
+
+    }
+
+    .header-right a:hover {
+        color: #000;
+        font-weight: bolder;
+    }
+
+    header .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    header .menu-icon:active ~ .header-right a {
+        display: block;
+    }
+
+    .btn {
+    width: 100%;
+    }
+
+    .top-wrapper {
+        border-radius: 0;
+        height: 100vh;
+    }
+
+    .top-wrapper img {
+        width: 100%;
+    }
+
+    .top-wrapper h1 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .shape {
+        border-radius: 0;
+    }
+
+    .symptom {
+        width: 100%;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .team-contents {
+        margin-bottom: 20px;
+    }
+
+    .order-wrapper .heading h2 {
+        font-size: 22px;
+    }
+
+    .order-wrapper .heading h3 {
+        font-size: 16px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+    .footer1 p {
+        line-height: 24px;
+    }
+
+    .footer4 p {
+        font-size: 14px;
+    }
+
+    .footer-item ul li {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .footer-item ul li::before {
+        content: "\213C";
+        display: none;
+    }
+
+    .footer-down {
+        height: 100%;
+
+        text-align: center;
+    }
+
+    .down-right {
+        width: 100%;
+        float: left;
+    }
+
+    .down-left {
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .down-left h2 {
+        font-size: 24px;
+    }
+
+    .tombol-up {
+        z-index: 5;
+    }
+}
