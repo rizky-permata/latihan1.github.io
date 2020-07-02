@@ -33,7 +33,7 @@ a {
     padding: 140px 0 100px;
     background-image: url("family-protected-from-virus.jpg");
     background-size: cover;
-    color: white;
+    color: #130f40;
     text-align: center;
     border-radius: 0 0 50% 50%;
     position: relative;
@@ -96,7 +96,6 @@ a {
 
 .top-wrapper p {
     margin-bottom: 3px;
-    color: #130f40;
 }
 
 .btn-wrapper {
